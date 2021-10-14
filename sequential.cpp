@@ -43,7 +43,7 @@ int main(){
 				}
 				else
                 {
-                    cout<<"No space left"<<endl;
+                    cout<<"No space"<<endl;
                     break;
                 }
         }
