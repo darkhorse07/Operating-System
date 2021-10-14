@@ -8,7 +8,7 @@ int main()
     int fopen = creat("newfile.txt", 0777);  
       
     if(fopen>=0)
-	{cout<<"File successfully created. \n";
+	{cout<<"File created successfully . \n";
 	cout<<"File Descriptor Used = "<<fopen<<endl; 
      } 
     else if (fopen ==-1) 
