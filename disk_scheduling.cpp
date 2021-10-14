@@ -5,7 +5,7 @@ int i;
 
 void FCFS(vector<int> requests, int n, long long int head_move, int curr)
 {
-    cout<<"Order of requests entertained: ";
+    cout<<"Order of requests: ";
     for(int i=0;i<n;i++)
     cout<<requests[i]<<" ";
     cout<<endl;
